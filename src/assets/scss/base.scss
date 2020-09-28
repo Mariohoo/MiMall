@@ -1,0 +1,19 @@
+.container{
+    width: 1226px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
